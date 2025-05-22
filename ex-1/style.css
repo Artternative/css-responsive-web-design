@@ -1,1 +1,122 @@
 /* Start coding here */
+.bg-main {
+    display: flex;
+    flex-direction: column;
+}
+.content-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px 30px 20px;
+}
+.content-header h2 {
+    display: flex;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family:'Verdana' ;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+span {
+    background:linear-gradient(0deg, #FF8345 ,50%,#FFF 0%);
+}
+.content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+}
+/* Mobile devide  */
+
+@media only screen and (max-width: 600px){
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+    align-items: center;
+    
+    }
+}
+
+@media only screen and (min-width: 992px){
+
+.item-list { 
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    background-color: white;
+    }
+    
+
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 250px;
+    border: solid 1px rgba(211, 211, 211, 0.479)  ;
+    padding: 20px;
+    border-radius: 15px;
+}
+#card-logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #FFF3ED;
+
+}
+#logo1,#logo2,#logo3,#logo4,#logo5,#logo6,#logo7 {
+  font-size: 40px;
+}
+#card-category {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#card-category h2 {
+   padding-top: 10px;
+   margin-bottom: 0%;
+   color: rgb(56, 56, 56);
+}
+#card-footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#card-category h5 {
+    font-size: larger;
+    padding-top: 10px;
+    color: rgba(90, 90, 90, 0.616);   
+}
+#card-category-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #FF8345;
+    color: aliceblue;
+    font-size:smaller;
+    font-weight: 100;
+}
+.card-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #FF8345;
+}
